@@ -9,7 +9,3 @@ hooks:
     - location: scripts/deploy.sh
       timeout: 300
       runas: root
-  ApplicationStart:
-    - location: scripts/pm2_restart.sh
-      timeout: 300
-      runas: root
